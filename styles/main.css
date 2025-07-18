@@ -1,0 +1,27 @@
+main {
+  max-width: 700px;
+  width: 100%;
+  align-self: center;
+
+  & img[alt="Logo quicklist"] {
+    display: block;
+    margin: 0 auto;
+  }
+
+  #back {
+    margin-top: 2rem;
+    font: var(--link);
+    display: flex;
+    align-items: center;
+    color: var(--color-brand);
+    & svg {
+      width: 14px;
+      height: 14px;
+    }
+  }
+
+  & #title h1 {
+    margin-top: 1rem;
+    font: var(--title);
+  }
+}

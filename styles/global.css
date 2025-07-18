@@ -33,11 +33,17 @@
   --link: 400 0.875rem/1rem var(--font);
 }
 
+@media screen and (max-width: 400px) {
+  :root {
+    --label: 600 0.75rem/1.25rem var(--font);
+  }
+}
+
 body {
   background-color: var(--background-primary);
-  padding: 25px;
   display: flex;
   flex-direction: column;
+  padding: 25px;
   margin: 0 auto;
   font-family: var(--font);
 }

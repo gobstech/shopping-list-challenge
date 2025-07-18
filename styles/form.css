@@ -41,3 +41,20 @@ form {
     }
   }
 }
+
+@media screen and (max-width: 400px) {
+  form {
+    flex-direction: column;
+    gap: 16px;
+
+    & input {
+      width: 100%;
+      padding: 0;
+    }
+
+    & button {
+      width: 100%;
+      padding: 0;
+    }
+  }
+}

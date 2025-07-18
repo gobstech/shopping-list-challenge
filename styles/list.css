@@ -45,6 +45,10 @@
     background-color: var(--color-danger);
     color: var(--always-white);
 
+    & h2 {
+      font: var(--label);
+    }
+
     &.active {
       display: flex;
     }
